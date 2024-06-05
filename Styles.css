@@ -39,3 +39,66 @@ img{
     border: solid 2px;
     border-radius: 30%;
 }
+#coro{
+    border: solid 1.5px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: transform 0.5s ease;
+}
+#coro:hover{
+    transform: scale(1.2);
+
+}
+#kitty{
+    border: solid 1.5px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: transform 0.5s ease;
+}
+#kitty:hover{
+    transform: scale(1.2);
+}
+#melody{
+    border: solid 1.5px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: transform 0.5s ease;
+}
+#melody:hover{
+    transform: scale(1.2);
+}
+#lts{
+    border: solid 1.5px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: transform 0.5s ease;
+}
+#lts:hover{
+    transform: scale(1.2);
+}
+#pyj{
+    border: solid 1.5px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: transform 0.5s ease;
+}
+#pyj:hover{
+    transform: scale(1.2);
+}
+#tuxedo{
+    border: solid 1.5px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: transform 0.5s ease;
+}
+#tuxedo:hover{
+    transform: scale(1.2);
+}
+.contenedor {
+    display: flex; /* Usa flexbox */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.contenedor img {
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
