@@ -1,0 +1,104 @@
+nav{
+    background-color:bisque;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+h1{
+    color: rgb(202, 153, 153);
+    font-size: 45px;
+}
+h2{
+    color: pink;
+    border: solid 1px;
+}
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a{
+    color: rgb(185, 64, 64);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(71, 29, 29);
+}
+body{
+    background-image: url('https://i.pinimg.com/originals/12/b0/17/12b0176f911f2f0dd724c9716e893e41.jpg');
+    opacity: 0,8;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+img{
+    border: solid 2px;
+    border-radius: 30%;
+}
+#coro{
+    border: solid 1.5px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: transform 0.5s ease;
+}
+#coro:hover{
+    transform: scale(1.2);
+
+}
+#kitty{
+    border: solid 1.5px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: transform 0.5s ease;
+}
+#kitty:hover{
+    transform: scale(1.2);
+}
+#melody{
+    border: solid 1.5px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: transform 0.5s ease;
+}
+#melody:hover{
+    transform: scale(1.2);
+}
+#lts{
+    border: solid 1.5px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: transform 0.5s ease;
+}
+#lts:hover{
+    transform: scale(1.2);
+}
+#pyj{
+    border: solid 1.5px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: transform 0.5s ease;
+}
+#pyj:hover{
+    transform: scale(1.2);
+}
+#tuxedo{
+    border: solid 1.5px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: transform 0.5s ease;
+}
+#tuxedo:hover{
+    transform: scale(1.2);
+}
+.contenedor {
+    display: flex; /* Usa flexbox */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.contenedor img {
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
